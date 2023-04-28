@@ -1,0 +1,74 @@
+                    /* responsiveeeeeeeeeeeeee */
+@media screen and (max-width: 990px){
+    .section{
+        display: grid;
+        grid-template-columns: 2fr  2fr 2fr;
+    }
+    .header{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px){
+    .header{
+       align-items: start;
+        flex-direction: column;
+
+    }
+    .Forcheck{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .checktri{
+        display: none;
+    }
+    .section{
+        display: grid;
+        grid-template-columns: 2fr  2fr;
+        width: 90%;
+    }
+    .stole{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .text{
+        margin-top: 15px;
+    }
+    .text div p{
+        padding: 20px;
+    }
+    .container, .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        font-size: 1.1em;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+   
+}
+@media screen and (max-width: 580px){
+    .section{
+        display: grid;
+        grid-template-columns: 2fr;
+    }   
+} 
+@media screen and (max-width: 393px){
+    .footend {
+        background-color: #3c3839;
+        width: 100%;
+        height: 80px;
+        border-bottom: 2px solid #fff;
+       }
+       .footend p{
+         margin-left: -5px;
+       }  
+       .way img{
+        width: 200px;
+        margin-left: -30px;
+       }   
+} 

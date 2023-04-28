@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:ital,wght@0,300;1,100&family=Roboto:ital,wght@0,500;0,900;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+ body{
+    background-color: #f0f0f0;
+    flex-direction: column;
+    display: flex;
+}
+ 
+header{
+    width:100%;
+    background-color: #fff;
+    justify-content: center;
+    padding: 20px 25px;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.header{
+    justify-content: space-between;
+    width: 80%;
+}
+.logo{
+    width: 250px;
+}
+img{
+    width: 100%;
+}
+.Forcheck, header, .header, .Forcheck input, .checkone,
+.fistvibe, .card i{
+    display: flex;
+    align-items: center;
+}
+.Forcheck{
+    width: 60%;
+}
+.Forcheck form{
+    width: 70%;
+}
+.Forcheck input{
+    height: 40px;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #e9ecef;
+    color: #e8ebee;
+    border: 1px solid #aaa;
+    border-top-left-radius: 5PX;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+.checkone{
+    min-width: 60px;
+    height: 40px;
+    justify-content: center;
+    background-color: #3c3839;
+    color: white;
+    border-top-right-radius: 5PX;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    border: none;
+}
+.checktwo{
+    background-color: #ed9540;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 20px;
+}
+.checktri{
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.63); 
+    text-decoration: none;
+    font-size: 1.1em;
+    background-color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.fistvibe{
+    text-align: center;
+    justify-content: end;
+    height: 100px;
+    width: 90%;
+    font-weight: bold;
+}
+.fistvibe h1{
+    width: 80%;
+    color: #616161;
+    font-size: 30px;
+}
+.section{
+    display: grid;
+    grid-template-columns: 2fr  2fr 2fr 2fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    margin:50px auto;
+    width: 90%;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 3px ;
+    box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.107);
+}
+.card i{
+    background-color: #ed9540;
+    border-radius: 50px;
+    position: relative;
+    color: white;
+    font-size: 1em;
+    bottom: 40px;
+    height: 40px;
+    width: 40px;
+    left: 45%;
+    border: 2px solid #ffffff;
+    justify-content: center;
+}
+.card span{
+    border-radius: 15px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.thing{
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.534);
+}
+.thing p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 2px;
+   font-weight: bold;
+}
+.value{
+    display: flex;
+    justify-content: space-between;   
+}
+.value p{
+    color: orange;
+    font-size: 17px;
+    cursor: pointer;
+}
+h1{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.2em;
+    text-align: center;
+   padding-top: 0;  
+}
+i{
+    font-size: 1.5rem;  
+} 
+
+
+/* the end vibesssssssssssss */
+
+footer{
+    background-color: #132e46;
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    justify-content: center;
+    margin: 10px auto;
+    height: 300px;
+}
+.text{
+    text-align: center;
+    width: 100%;
+}
+.text div{
+    display: flex;
+}
+.text div p{
+    padding: 10px 40px;
+}
+.last{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.way{
+    width: 70%;
+    text-align: center;
+    padding: 20px 40px;
+}
+.way img{
+    width: 50%;
+}
+.down{
+    margin-bottom: 30px;
+}
+.lidt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ .myicons i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 10px 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+  .footend {
+   background-color: #3c3839;
+   width: 100%;
+   height: 60px;
+   border-bottom: 2px solid #fff;
+  }
+  .footend p{
+    padding: 17px;
+    margin-left: 140px;
+    font-size: 19px;
+  }
+                      /* responsiveeeeeeeeeeeeee */
+@media screen and (max-width: 990px){
+    .section{
+        display: grid;
+        grid-template-columns: 2fr  2fr 2fr;
+    }
+    .header{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px){
+    .header{
+       align-items: start;
+        flex-direction: column;
+
+    }
+    .Forcheck{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .checktri{
+        display: none;
+    }
+    .section{
+        display: grid;
+        grid-template-columns: 2fr  2fr;
+        width: 90%;
+    }
+    .stole{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .text{
+        margin-top: 15px;
+    }
+    .text div p{
+        padding: 20px;
+    }
+    .container, .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        font-size: 1.1em;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+   
+}
+@media screen and (max-width: 580px){
+    .section{
+        display: grid;
+        grid-template-columns: 2fr;
+    }   
+} 
+@media screen and (max-width: 393px){
+    .footend {
+        background-color: #3c3839;
+        width: 100%;
+        height: 80px;
+        border-bottom: 2px solid #fff;
+       }
+       .footend p{
+         margin-left: -5px;
+       }  
+       .way img{
+        width: 200px;
+        margin-left: -30px;
+       }   
+} 
